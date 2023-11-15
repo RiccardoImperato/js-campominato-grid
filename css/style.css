@@ -40,6 +40,7 @@ header img {
 
 .btn {
     padding: 0 1.25rem;
+    cursor: pointer;
 }
 
 main {
@@ -56,6 +57,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    cursor: pointer;
 }
 
 .cell {
@@ -64,4 +66,8 @@ main {
     border: .0625rem solid #000;
     text-align: center;
     line-height: 3.75rem;
+}
+
+.active {
+    background-color: #add8e6;
 }
