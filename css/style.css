@@ -52,4 +52,6 @@ main {
     height: calc(100% / 10);
     width: calc(100% / 10);
     border: .0625rem solid #000;
+    text-align: center;
+    line-height: 3.75rem;
 }
