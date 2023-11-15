@@ -17,11 +17,6 @@ playBtn.addEventListener("click", function () {
     for (let i = 1; i <= 100; i++) {
         const myElement = myCreateElement('div', 'cell', i);
         board.append(myElement);
-        console.log(myElement[i]);
     }
 });
-
-
-
-
 

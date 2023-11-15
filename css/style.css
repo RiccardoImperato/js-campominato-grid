@@ -27,6 +27,17 @@ header {
     align-items: center;
 }
 
+header img {
+    height: 3.125rem;
+    width: 3.125rem;
+    display: block;
+}
+
+.titolo {
+    display: flex;
+    align-items: center;
+}
+
 .btn {
     padding: 0 1.25rem;
 }
@@ -42,7 +53,6 @@ main {
 .board {
     height: 37.5rem;
     width: 37.5rem;
-    background-color: bisque;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
