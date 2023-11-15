@@ -7,3 +7,49 @@
 }
 
 /*/ Reset */
+
+/* Common */
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    padding: 1.25rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 0 1.25rem;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    height: 37.5rem;
+    width: 37.5rem;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cell {
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: .0625rem solid #000;
+}
